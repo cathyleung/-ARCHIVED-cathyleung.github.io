@@ -7,6 +7,7 @@ html, body, .container {
 a {
     text-decoration: none;
     padding: 10px 20px;
+    color: black;
 }
 
 a.active {
@@ -27,6 +28,7 @@ a.active {
     padding: 10px 0 15px;
     box-shadow: 1px 1px 5px #888888;
 }
+
 
 .title {
     margin: auto;
