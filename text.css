@@ -1,3 +1,10 @@
 .title-container {
     font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#title-name {
+    font-family: 'Cousine', monospace;
 }
