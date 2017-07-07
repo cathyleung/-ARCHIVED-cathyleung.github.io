@@ -3,28 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Cathy Leung</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/e3986eeadd.js"></script>
     <link href="text.css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
 </head>
 <body>
-    <div class="menu">
+    <div class="menu" id="menu">
         <a href="#title">HOME</a>
         <a href="#about-me">ABOUT ME</a>
+        <a href="#portfolio">PORTFOLIO</a>
+        <a href="#contact">CONTACT</a>
     </div>
     <div class="container">
         <div class="title" id="title">
             <div class="title-text">
-                <h2>hello</h2>
-                <h1 id="title-name">I AM CATHY</h1>
+                <h1 id="title-name">CATHY<br>LEUNG</h1>
                 <p>Student | BA Computer Science</p>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="about-me" id="about-me">
-            <p></p>
+            <h3>ABOUT ME</h3>
         </div>
     </div>
+    <div class="container">
+        <div class="portfolio" id="portfolio">
+            <h3>PORTFOLIO</h3>
+            <div id="portfolio-table">
+                <table>
+                    <tr>
+                        <td class="lh-data"><p>A query search engine for the UBC course database</p></td>
+                        <td class="rh-data"><img src="images/insightUBC.png" width="25%" height="25%"></td>
+                    </tr>
+                    <tr>
+                        <td class="lh-data"><p>A weather forecast application built on the iOS platform</p></td>
+                        <td class="rh-data"><img src="images/insightUBC.png" width="25%" height="25%"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="contact" id="contact">
+            <h3>CONTACT</h3>
+            <div id="contact-table">
+                <table>
+                    <tr>
+                        <td class="lh-data"><p>604-360-7807</p></td>
+                        <td class="rh-data"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="lh-data"><p>cathyleung@alumni.ubc.ca</p></td>
+                        <td class="rh-data"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
