@@ -24,8 +24,6 @@ hr {
     min-height: 100%;
 }
 
-
-
 .menu {
     overflow: hidden;
     background-color: white;
@@ -43,12 +41,6 @@ hr {
     margin: auto;
     width: 100%;
     min-height: 100%;
-    /*
-    background-image: url('images/geometric-background.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    */
 }
 
 .title-text {
@@ -67,7 +59,6 @@ hr {
 }
 
 
-
 .about-me-text {
     width: 100%;
     position: absolute;
@@ -84,11 +75,6 @@ hr {
 .container h3 {
     padding-left: 40px;
     width: 100%;
-}
-
-.pictures {
-    text-align: right;
-    padding-right: 200px;
 }
 
 table {
@@ -124,10 +110,30 @@ td img {
     width: 100%;
 }
 
-.contact {
+.filler-col {
+    width: 54%;
+}
+
+.contact, .portfolio {
     width: 100%;
 }
 
-.portfolio {
-    width: 100%;
+.proj1-info p, .proj2-info p {
+    padding-right: 20px;
+    padding-left: 35%;
+    padding-bottom: 20px;
 }
+
+.git-link p {
+    padding: 0;
+    text-align: center;
+}
+
+.git-link {
+    border: 1px solid lightgrey;
+}
+/*
+table tr td {
+    border: 1px black solid;
+}
+*/
