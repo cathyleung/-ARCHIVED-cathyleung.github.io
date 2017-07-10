@@ -26,16 +26,10 @@ h3 {
     font-size: 70px;
 }
 
-.about-me {
-    text-align: center;
-}
-/*
-.about-me h2 {
-    font-weight: 100;
-    font-size: 40px;
-}
-*/
 p {
     font-weight: 100;
 }
 
+#portfolio-table, #contact-table, #about-me-table {
+    text-align: right;
+}
